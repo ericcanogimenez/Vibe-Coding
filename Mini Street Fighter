@@ -1,130 +1,141 @@
-1. Títol provisional del joc
+**1. Título provisional del juego
 
-Mini Street Fighter 
+Mini Street Fighter
 
-2. Tipus de microvideojoc escollit
+**2. Tipo de microvideojuego
 
-Joc de lluita 1 vs 1 simplificat (arcade 2D)
+Juego de lucha 1 vs 1 simplificado (arcade 2D).
 
-3. Objectiu del joc
+**3. Objetivo del juego
 
-Derrotar l’enemic reduint la seva vida a 0 abans que ell ho faci amb tu.
+Derrotar al enemigo reduciendo su vida a 0 antes de que él haga lo mismo contigo.
 
-4. Rol del jugador
+**4. Rol del jugador
 
-El jugador controla un lluitador en 2D.
+El jugador controla a un luchador en 2D.
 
-Accions:
+**Acciones:
 
-Moure’s esquerra/dreta
-Atacar (cop bàsic)
-Bloquejar (opcional si dona temps)
-5. Regles bàsiques
-Cada personatge té una barra de vida.
-Els atacs només fan mal si el jugador està prou a prop.
-L’enemic es mou automàticament cap al jugador.
-L’enemic ataca de manera simple (cada X segons).
-6. Condicions de victòria i derrota
+Moverse a izquierda y derecha
+Atacar (golpe básico)
+Bloquear (opcional, si hay tiempo)
 
-Victòria:
+**5. Reglas básicas
+Cada personaje tiene una barra de vida.
+Los ataques solo hacen daño si el jugador está lo suficientemente cerca.
+El enemigo se mueve automáticamente hacia el jugador.
+El enemigo ataca de forma simple (cada cierto tiempo).
 
-La vida de l’enemic arriba a 0.
+**6. Condiciones de victoria y derrota
+
+Victoria:
+La vida del enemigo llega a 0.
 
 Derrota:
+La vida del jugador llega a 0.
 
-La vida del jugador arriba a 0.
-7. Bucle principal del joc
-Llegir input del jugador
-Moure jugador
-Moure enemic cap al jugador
-Gestionar atacs (jugador i enemic)
-Detectar col·lisions d’atac
-Actualitzar vida
-Comprovar win/lose
+**7. Bucle principal del juego
+Leer input del jugador
+Mover jugador
+Mover enemigo hacia el jugador
+Gestionar ataques (jugador y enemigo)
+Detectar colisiones de ataque
+Actualizar vida
+Comprobar victoria o derrota
 Repetir
-8. Repte principal i dificultat
 
-Repte:
-Atacar en el moment correcte i mantenir la distància.
+**8. Reto principal y dificultad
 
-Dificultat:
+Reto:
+Atacar en el momento adecuado y mantener la distancia.
 
-Baixa al principi
-Mitjana si l’enemic ataca més sovint
-9. Limitacions explícites
+Dificultad:
 
-Aquest joc NO inclourà:
+Baja al inicio
+Media si el enemigo aumenta la frecuencia de ataque
+
+**9. Limitaciones explícitas
+
+Este juego no incluirá:
 
 Combos
-Animacions complexes
-Múltiples personatges
-Escenaris diferents
+Animaciones complejas
+Múltiples personajes
+Escenarios diferentes
 Multijugador
-Sons avançats
+Sonido avanzado
 Física realista
-10. Riscos tècnics
-Detecció de col·lisions d’atac (hitbox mal ajustada)
-IA enemiga massa simple o trencada
-Control del timing dels atacs
-11. Exploració amb IA
+
+**10. Riesgos técnicos
+Detección de colisiones de ataque (hitbox mal ajustada)
+IA enemiga demasiado simple o incorrecta
+Control del timing de los ataques
+
+**11. Exploración con IA
 
 Prompt 1:
 "Cómo hacer un juego de pelea simple en JavaScript sin librerías"
 
-Resposta resumida:
+Respuesta resumida:
 
-Usar canvas
-Representar personatges com rectangles
-Detectar col·lisions bàsiques
-Controlar moviment amb teclat
+Uso de canvas
+Representación de personajes como rectángulos
+Detección de colisiones básicas
+Control de movimiento con teclado
 
 Prompt 2:
 "Ejemplo de lógica de ataque y vida en un juego 2D"
 
-Resposta resumida:
+Respuesta resumida:
 
 Variables de vida
-Cooldown d’atac
-Sistema de dany en col·lisió
-12. Proposta final escollida
+Cooldown de ataque
+Sistema de daño por colisión
 
-Mini joc de lluita 1 vs 1 amb gràfics simples (rectangles) en JavaScript amb Canvas.
+**12. Propuesta final elegida
 
-13. Justificació de viabilitat
-No hi ha animacions complexes
-Mecàniques molt reduïdes
-IA molt simple
-Es pot fer amb HTML + JS sense motor
-Perfecte per menys de 10 hores
-14. Mini pla de treball
+Mini juego de lucha 1 vs 1 con gráficos simples (rectángulos) en JavaScript usando Canvas.
+
+**13. Justificación de viabilidad
+No requiere animaciones complejas
+Mecánicas muy reducidas
+IA sencilla
+Se puede desarrollar con HTML y JavaScript sin motor
+Apto para completarse en menos de 10 horas
+
+**14. Mini plan de trabajo
 
 Fase 1 (1h):
-Setup HTML + Canvas
+Configuración de HTML y Canvas
 
 Fase 2 (3h):
 
-Moviment jugador
-Moviment enemic
+Movimiento del jugador
+Movimiento del enemigo
 
 Fase 3 (3h):
 
-Sistema d’atac
-Vida
+Sistema de ataque
+Sistema de vida
 
 Fase 4 (2h):
 
-Col·lisions
-Win/Lose
+Colisiones
+Condiciones de victoria/derrota
 
 Fase 5 (1h):
+Ajustes finales y balance de dificultad
 
-Polir i ajustar dificultat
-15. Eines previstes i justificació
+**15. Herramientas previstas y justificación
+
 JavaScript + HTML Canvas:
-Permet fer el joc directament al navegador.
+Permite desarrollar el juego directamente en el navegador.
+
 VS Code:
-Editor lleuger i ràpid.
+Editor ligero y eficiente.
+
 Navegador web:
-Per provar el joc instantàniament.
+Permite probar el juego de forma inmediata.
+
 IA (ChatGPT):
-Per ajudar amb codi i errors.
+Apoyo en generación de código y resolución de errores.
